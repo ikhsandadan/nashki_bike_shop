@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASHKI BIKE SHOP</title>
+    <link rel=stylesheet href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div id="inner-container">
+    <div class="header">
+        <h1>NASHKI BIKE SHOP</h1>
+        <p id="user_detail"></p>
+        <p class="sub_title">Find The Perfect Bike Four You</p>
+    </div>
+    <div class="filterable_card">
+        <div class="card" data-name="login">
+            <h2>Login to your account</h2>
+            <div class="box">
+                <p class="black">Enter your Username:</p>
+                <input type="text" id="username" class="input" placeholder="Username">
+            </div>
+            <div class="box">
+                <p class="black">Enter your password:</p>
+                <input type="password" id="password" class="input" placeholder="Password">
+            </div>
+            <div id="button_container">
+                <button type="submit" id="login">Login</button>
+            </div>
+        </div>
+        <div class="card hide" data-name="main">
+            <h2>Bike Collections</h2><hr><br>
+            <div class="card_bike" id="show_bike">
+            </div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: grid;
+    grid: auto/ auto auto;
+    grid-template-areas: 
+        'header header header header'
+        'sub sub sub main';
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+    grid-area: header;
+}
+
+.sub_title {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    grid-area: sub;
+}
+
+#user_detail {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: end;
+    grid-area: main;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: flex;
+    background-color: #706c6c;
+}
+
+.input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+#inner-container {
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#login {
+    background-color: #706c6c;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#login:hover {
+    background-color: #f1f1f1;
+    color: #9e7d7d;
+}
+
+#detail {
+    background-color: #706c6c;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#detail:hover {
+    background-color: #f1f1f1;
+    color: #9e7d7d;
+}
+
+#button_container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.filterable_card {
+    justify-content: center;
+    column-count: 2;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: inline-block;
+    height: flex;
+    margin: 1rem;
+    padding: 1rem;
+    width: flex;
+}
+
+.card.hide{
+    display: none;
+}
+
+.card_bike {
+    display: grid;
+    width: 100%;
+    grid: auto/ auto auto auto auto;
+    gap: 30px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bike_display {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.black {
+    color: black;
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_bike {
+    display: flex;
+    border: 2px solid #706c6c;
+    background: #ebebeb;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-content: center;
+}
+
+.box_bike:hover {
+    box-shadow: 5px 8px 10px grey;
+}
+
+.box_bike_detail {
+    display: flex;
+    border: 2px solid #706c6c;
+    background: #ebebeb;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-content: center;
+}
+
+.box_bike_detail_box {
+    display: grid;
+    grid: auto/ auto auto;
+    gap: 30px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.bike_title {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bike_title_detail {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box_desc {
+    display: grid;
+    gap: 20px;
+    grid: auto/ auto auto;
+}
+
+.button_box {
+    grid-column-start: 3;
+    grid-column-end: 1;
+    justify-self: end;
+}
+
+#buy {
+    font-size: 25px;
+    font-weight: bold;
+    max-height: 50px;
+    background-color: #00c43b;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#buy:hover {
+    background-color: #f1f1f1;
+    color: #9e7d7d;
+}
+
+#cancel_buy {
+    font-size: 25px;
+    font-weight: bold;
+    max-height: 50px;
+    background-color: #c40000;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#cancel_buy:hover {
+    background-color: #f1f1f1;
+    color: #9e7d7d;
+}
+
+#look_again {
+    font-size: 25px;
+    font-weight: bold;
+    max-height: 50px;
+    background-color: #706c6c;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#look_again:hover {
+    background-color: #f1f1f1;
+    color: #9e7d7d;
+}
+
+.row_line {
+    border-top: 2px solid black;
+}
+
+#confirmBuy {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-height: 50px
+}
+
+#cancelBuy {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-height: 50px
+}
+.bike_desc {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bike_desc_buy {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.bike_desc.hide {
+    display: none;
+}
+
+#account_type {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    appearance: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#menu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline:  none;
+    appearance: none;
+    text-align: center;
+    border-radius: 5px;
+}
