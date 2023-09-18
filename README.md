@@ -2,7 +2,7 @@
 ## Created for StackUp JavaScript Intermediate Campaign Bounty
 
 ### Website Explanation
-I have created a Bike Shop website where users can purchase their desired bicycles by logging in first. I have prepared three sample users: Bob with an account balance of $10,000, Alice with an account balance of $3,000, and Alex with an account balance of $5,000. This account balance can be used to buy bicycles available on the website. If the account balance is less than the bicycle's price, an error message will appear, and the purchase will fail. If the balance is sufficient, the purchase will be successful, and the balance will be reduced accordingly.
+I have created a Bike Shop website where users can purchase their desired bicycles by logging in first. I have prepared three sample users: Bob with an account balance of $10,000, Alice with an account balance of $3,000, and Alex with an account balance of $5,000, all three sample users passwords is "123456". This account balance can be used to buy bicycles available on the website. If the account balance is less than the bicycle's price, an error message will appear, and the purchase will fail. If the balance is sufficient, the purchase will be successful, and the balance will be reduced accordingly.
 
 Additionally, I have implemented three types of purchase discounts. For purchases equal to or less than $3,000, users will receive a 2.5% discount. For purchases between $3,000 and $6,000, a 5% discount will be applied. Finally, for purchases exceeding $6,000, users will receive a 10% discount.
 
