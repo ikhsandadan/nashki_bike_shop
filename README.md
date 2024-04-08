@@ -1,6 +1,8 @@
 # NASHKI BIKE SHOP
 ## Created for StackUp JavaScript Intermediate Campaign Bounty
 
+[Bikeshop](https://nashki-bike-shop.netlify.app/)
+
 ### Website Explanation
 I have created a Bike Shop website where users can purchase their desired bicycles by logging in first. I have prepared three sample users: Bob with an account balance of $10,000, Alice with an account balance of $3,000, and Alex with an account balance of $5,000, all three sample users passwords is "123456". This account balance can be used to buy bicycles available on the website. If the account balance is less than the bicycle's price, an error message will appear, and the purchase will fail. If the balance is sufficient, the purchase will be successful, and the balance will be reduced accordingly.
 
